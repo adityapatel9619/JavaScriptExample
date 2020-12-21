@@ -1,0 +1,24 @@
+/* ******Tags Section****** */
+
+/* All h1 Tags */
+h1 {
+  text-align: center;
+}
+/* All button tags */
+button {
+  background-color: #f5ff05;
+  border: dotted;
+  border-radius: 50%;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  display: inline-block;
+}
+
+/* ******Class Section****** */
+
+/* Internal Javascript */
+.wrapper {
+  text-align: center;
+}

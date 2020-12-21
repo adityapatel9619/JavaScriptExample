@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <style>
+            h1{
+                text-align: center;
+            }
+            .container{
+                text-align: center;
+            }
+            .container2{
+                text-align: center;
+            }
+            .container3{
+                text-align: center;
+            }
+            .container4{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+            <h1>JavaScript String Example</h1>
+            <div class="container"></div>
+            <div class="container2"></div>
+            <div class="container3"></div>
+            <div class="container4"></div>
+
+
+
+            <!-- JavaScript -->
+            <script>
+                let x;
+                    x = "Hello this is \"Aditya Patel\"";
+                let y;
+                    y = "It\'s time for coding";    
+                let z;
+                    z = "Aditya";    
+
+                    // Indexing shows the last occurence of the respective string
+                    document.querySelector(".container").innerHTML = x;
+                    document.querySelector(".container2").innerHTML ="Index of \"" +z+"\" "+ x.indexOf(z);
+                    document.querySelector(".container3").innerHTML ="Last Index of \"" +z+"\" "+ x.lastIndexOf(z);
+                    document.querySelector(".container4").innerHTML ="Here we go for slicing";
+
+                    
+            </script>
+    </body>
+</html>
